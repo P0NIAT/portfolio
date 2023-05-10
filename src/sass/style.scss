@@ -165,9 +165,18 @@ body {
 	@include heroImages('../../dist/img/desk640.jpg');
 	background-attachment: scroll;
 
+	&__photo {
+		position: absolute;
+		top: 5%;
+		right: 5%;
+		height: 120px;
+		width: 120px;
+		border-radius: 25%;
+	}
+
 	&__text {
 		position: absolute;
-		top: 50%;
+		top: 60%;
 		padding: 10px 20px;
 		color: $gray-white;
 		background: $light-shadow-gradient;
@@ -576,6 +585,12 @@ body {
 	}
 
 	.header {
+		&__photo {
+			top: 5%;
+			right: 5%;
+			height: 200px;
+			width: 200px;
+		}
 		&__text {
 			&-p {
 				font-size: 1.6rem;
@@ -780,6 +795,12 @@ body {
 		height: 60vh;
 		@include heroImages('../../dist/img/desk1920.jpg');
 		background-attachment: scroll;
+		&__photo {
+			top: 10%;
+			right: 1%;
+			height: 250px;
+			width: 250px;
+		}
 		&__text {
 			&-p {
 				font-size: 2.2rem;
