@@ -1,0 +1,12 @@
+@mixin heroImages($bgImg) {
+	background-image: $shadow-gradient, url($bgImg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+@mixin projectsCardStyles {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}

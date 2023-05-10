@@ -1,0 +1,70 @@
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 2em;
+    &__map {
+        padding: 2em;
+    }
+}
+
+.home {
+    display: flex;
+}
+.home-page {
+    color: $creame-white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.home-page:hover {
+    color: #bbb;
+    transform: scale(0.9);
+}
+
+.contactkit {
+	position: relative;
+	background-color: $creame-white;
+	overflow: hidden;
+
+
+	&__form,
+	&__form-top {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__form-label {
+		margin-bottom: 0.5em;
+		text-transform: uppercase;
+	}
+
+	&__form-input {
+		@include contactForm;
+	}
+
+	&__form-textarea {
+		@include contactForm;
+		max-width: 100%;
+		min-width: 100%;
+		width: 100%;
+		min-height: 150px;
+	}
+
+	&__form-btn {
+		align-self: flex-end;
+		padding: 1em;
+		width: 100%;
+		max-width: 300px;
+		color: #fff;
+		border: none;
+		border-radius: 8px;
+		background-color:  rgb(7, 231, 145);
+		cursor: pointer;
+
+		&::before {
+			background-color: red;
+		}
+	}
+}
