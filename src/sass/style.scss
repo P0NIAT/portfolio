@@ -859,6 +859,14 @@ body {
 	// 		width: 30%;
 	// 	}
 	// }
+	.header {
+		&__photo {
+			top: 7%;
+			right: 1%;
+			height: 300px;
+			width: 300px;
+		}
+	}
 
 	.contact {
 		flex-direction: row;
