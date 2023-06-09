@@ -18,7 +18,7 @@ html {
 body {
 	position: relative;
 	height: 100vh;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 1.6rem;
 	background-color: $pure-white;
 }
@@ -311,6 +311,14 @@ body {
 			&--fourth {
 				background-image: $light-shadow-gradient,
 					url('../../dist/img/java480.jpg');
+			}
+			&--fifth {
+				background-image: $light-shadow-gradient,
+					url('../../dist/img/tropical480.jpg');
+			}
+			&--sixth {
+				background-image: $light-shadow-gradient,
+					url('../../dist/img/invest480.jpg');
 			}
 
 			&-title {
@@ -856,8 +864,6 @@ body {
 @media (min-width: 1200px) {
 	.header {
 		&__photo {
-			top: 10%;
-			right: 1%;
 			height: 300px;
 			width: 300px;
 		}
