@@ -21,6 +21,8 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1.6rem;
 	background-color: $pure-white;
+	max-width: 1680px;
+	margin: 0 auto;
 }
 
 .wrapper {
@@ -322,6 +324,7 @@ body {
 			}
 
 			&-title {
+				
 				display: inline;
 				margin: 0 auto;
 				padding: 5px 10px;
